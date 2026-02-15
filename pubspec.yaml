@@ -59,6 +59,7 @@ flutter:
      - image/images (5).jpg
      - image/téléchargement (3).jpg
      - image/téléchargement (4).jpg
+     - image/photo_2026-02-15_21-39-48.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
   # For details regarding adding assets from package dependencies, see

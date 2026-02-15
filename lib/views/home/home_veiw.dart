@@ -58,6 +58,18 @@ class MyAppstate extends State<HomeVeiw> {
                       color: const Color.fromARGB(255, 164, 149, 149),
                     ),
                   ),
+                  trailing: ClipRRect(
+                    borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(30),
+                      topRight: Radius.circular(30),
+                    ),
+                    child: Image.asset(
+                      "image/photo_2026-02-15_21-39-48.jpg",
+                      height: 60,
+                      width: 80,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ),
               ),
 
@@ -163,7 +175,6 @@ class MyAppstate extends State<HomeVeiw> {
                                       child: Row(
                                         mainAxisAlignment:
                                             MainAxisAlignment.spaceBetween,
-
                                         children: [
                                           Row(
                                             children: [
